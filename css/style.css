@@ -41,6 +41,7 @@ body {
 /* strat nav bar */
 .navbar {
   background-color: var(--dark-color);
+  background:cover;
   top: -1px;
 }
 .navbar button {
@@ -75,6 +76,23 @@ body {
 .landing {
   background-color: var(--dark-color);
   height: calc(100vh - 72px);
+}
+.landing h1{
+  font-size: 4rem;
+}
+.landing .main-ptn a{
+  transition:all 0.3s ease ;
+  -webkit-transition:all 0.3s ease ;
+  -moz-transition:all 0.3s ease ;
+  -ms-transition:all 0.3s ease ;
+  -o-transition:all 0.3s ease ;
+}
+.landing .main-ptn a:hover{
+  transform: translateY(-5px);
+  -webkit-transform: translateY(-5px);
+  -moz-transform: translateY(-5px);
+  -ms-transform: translateY(-5px);
+  -o-transform: translateY(-5px);
 }
 /* end lnding */
 /* start skills section */
