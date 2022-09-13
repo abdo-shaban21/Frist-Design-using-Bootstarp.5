@@ -75,7 +75,7 @@ body {
 /* start lnding */
 .landing {
   background-color: var(--dark-color);
-  height: calc(100vh - 72px);
+  height: calc(100vh - 70px);
 }
 
 .landing .main-ptn a{
@@ -121,7 +121,7 @@ body {
   background-color: var(--section-color);
 }
 .our-work .work-link li {
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 0.75rem;
   cursor: pointer;
 }
 .our-work .work-link li.active {
